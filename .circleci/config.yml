@@ -16,8 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Hello, World!"
-          return 1
+          command: return 1
       - run:
           name: prints sth
           command: "echo Hello, Error"
